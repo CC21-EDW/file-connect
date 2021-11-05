@@ -1,6 +1,6 @@
-# Contributing to _repository-template-java_
+# Contributing to _CC21-EDW/file-connect_
 
-**Thank you for your interest in _repository-template-java_. Your contributions are highly welcome.**
+**Thank you for your interest in _file-connect_. Your contributions are highly welcome.**
 
 There are multiple ways of getting involved:
 

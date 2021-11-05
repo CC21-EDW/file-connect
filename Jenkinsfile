@@ -59,7 +59,7 @@ pipeline {
             steps {
                 sonar()
                 
-                nexusPolicyEvaluation iqApplication: 'com.baloise.open.repository-template-java', 
+                nexusPolicyEvaluation iqApplication: 'com.baloise.open.edw.file-connect',
                     iqScanPatterns: [[scanPattern: 'target/*.jar']], 
                     iqStage: 'build'
             }
