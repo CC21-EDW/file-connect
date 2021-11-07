@@ -1,0 +1,6 @@
+server:
+  port: 9099
+
+logging:
+  level:
+    com.baloise.open.strava.edw.infrastructure.web: DEBUG

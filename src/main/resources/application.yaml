@@ -1,0 +1,31 @@
+server:
+  servlet:
+    charset: "UTF-8"
+    enabled: true
+    force: true
+
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+
+logging:
+  level:
+    root: INFO
+    org.apache.kafka.clients: WARN
+    io.confluent.kafka.serializers: WARN
+
+edw:
+  file-watcher:
+#    source-dir: /Users/ane/Library/Mobile Documents/com~apple~CloudDocs/0-Archive/03-Private/01-Personal/05-Sparetime/Sports
+    source-dir: "src/test/resources/observed"
+    core-pool-size: 2
+    max-pool-size: 5
+    queue-capacity: 10
+    thread-name-prefix: "file-watcher"
+  kafka:
+    system-id: "strava-connect"
+    schema-registry-url: "http://localhost:9012"
+    activity:
+      topic-name: "lz.edw.file-connect.activity"
+      value-serializer: "io.confluent.kafka.serializers.KafkaAvroSerializer"
