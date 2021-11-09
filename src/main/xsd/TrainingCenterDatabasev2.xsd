@@ -202,7 +202,7 @@
         </xsd:sequence>
         <xsd:attribute name="Sport" type="Sport_t" use="required"/>
     </xsd:complexType>
-    <xsd:complexType name="AbstractSource_t" abstract="true">
+    <xsd:complexType name="AbstractSource_t" abstract="false">
         <xsd:sequence>
             <xsd:element name="Name" type="Token_t"/>
         </xsd:sequence>
