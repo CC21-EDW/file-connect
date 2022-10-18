@@ -84,11 +84,11 @@
         <org.hamcrest.version>2.2</org.hamcrest.version>
 
         <lombok.version>1.18.24</lombok.version>
-        <mapstruct.version>1.4.2.Final</mapstruct.version>
+        <mapstruct.version>1.5.2.Final</mapstruct.version>
 
-        <jaxb-impl.version>3.0.2</jaxb-impl.version>
-        <jaxb-api.version>2.3.1</jaxb-api.version>
-        <jackson-jaxb.version>2.13.0</jackson-jaxb.version>
+        <jaxb-impl.version>4.0.1</jaxb-impl.version>
+        <jaxb-api.version>2.4.0-b180830.0359</jaxb-api.version>
+        <jackson-jaxb.version>2.13.4</jackson-jaxb.version>
     </properties>
 
     <dependencies>
