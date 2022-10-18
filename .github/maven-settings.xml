@@ -27,6 +27,11 @@
                     <name>GitHub Baloise Apache Maven Packages</name>
                     <url>https://maven.pkg.github.com/baloise</url>
                 </repository>
+                <repository>
+                    <id>edw-component</id>
+                    <name>GitHub Baloise Apache Maven Packages</name>
+                    <url>https://maven.pkg.github.com/CC21-EDW/edw-component</url>
+                </repository>
             </repositories>
         </profile>
     </profiles>
@@ -34,6 +39,11 @@
     <servers>
         <server>
             <id>github</id>
+            <username>${env.GITHUB_USERNAME}</username>
+            <password>${env.GITHUB_TOKEN}</password>
+        </server>
+        <server>
+            <id>edw-component</id>
             <username>${env.GITHUB_USERNAME}</username>
             <password>${env.GITHUB_TOKEN}</password>
         </server>
