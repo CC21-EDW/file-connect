@@ -40,6 +40,6 @@ public class KafkaController {
 
     @PreDestroy
     public void disconnectFromWorkflow() {
-        activityProducer.pushStatusProducerShutdown();
+        activityProducer.pushStatusShutdown();
     }
 }
