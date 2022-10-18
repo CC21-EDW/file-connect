@@ -64,7 +64,6 @@
         </repository>
         <repository>
             <id>edw-component</id>
-            <name>GitHub Baloise Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/CC21-EDW/edw-component</url>
         </repository>
     </repositories>
