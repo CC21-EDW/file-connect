@@ -88,7 +88,7 @@
 
         <jaxb-impl.version>4.0.1</jaxb-impl.version>
         <jaxb-api.version>2.4.0-b180830.0359</jaxb-api.version>
-        <jackson-jaxb.version>2.13.4</jackson-jaxb.version>
+        <jackson-jaxb.version>2.13.4.1</jackson-jaxb.version>
     </properties>
 
     <dependencies>
